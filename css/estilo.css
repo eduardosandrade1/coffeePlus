@@ -66,3 +66,39 @@ p{
 #estrutura #menu a.atual{ /* item de menu selecionado */
     background-color: #ff9900;
 }
+
+#estrutura #conteudo h2{
+    font-family: Arial;
+    font-size: 14pt;
+    padding: 10px;
+}
+/* firmatação para o texto geral */
+#estrutura #conteudo .texthome{
+    font-family: 'times New Roman';
+    font-size: 14pt;
+    line-height: 14pt;
+    padding-left: 20px;
+}
+#rodape{
+    padding: 20px 0px; 
+    font-family: arial;
+    background-color: #800;
+    color: white;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#estrutura #conteudo .imghome img{ /* estilizando imagem */
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+}
+
+#estrutura #conteudo .imghome{text-align: center;}
+
+/*forçar que o rodape fique no final da pagina(para baixo)*/
+
+.abaixar{
+    clear: both;
+}
