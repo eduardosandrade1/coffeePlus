@@ -1,0 +1,27 @@
+@media screen and (max-width:550px){
+    .menu{
+        position: fixed;
+        display: flex;
+        right: -366px;
+        transition-duration: 1s;
+        background-color: transparent;
+    }
+    .menu li{
+        max-width: 70px;
+    }
+    .menu a{
+        width: 60px;
+        font-size: 20pt;
+    }
+    .btn-menu{
+        display: block;
+        padding: 10px;
+        background-color: black;
+        color: burlywood;
+        border: none;
+    }
+    .menu:hover{
+        position: fixed;
+        right: 0px;
+    }
+}
